@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>l exo du matin</h1>
+
+    <form id="niveauForm">
+      <select id="niveau" onchange="choix()">
+        <option value="0">--Choisissez un niveau--</option>
+        <option value="1">Niveau 1 (1-20)</option>
+        <option value="2">Niveau 2 (1-50)</option>
+        <option value="3">Niveau 3 (1-100)</option>
+      </select>
+    </form>
+
+    <div id="form">
+      <form class="userNumber">
+        <input type="text" id="userNumber" name="userNumber" required />
+        <button type="submit">OK</button>
+      </form>
+      <div id="tousLesEssais">
+        <p></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
